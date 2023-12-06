@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
     <title>XUEBING.PRO</title>
     <meta name="description" content="This is Xuebing's home page." />
     <meta name="keywords" content="Xuebing, Xuebing.Pro" />
@@ -69,12 +72,22 @@
         left: 0;
         width: 100%;
         text-align: center;
-        color: rgb(193, 162, 83, 0.4);
+        color: rgb(193, 162, 83, 0.2);
         font-size: 14px;
-        font-family: cursive, monospace, serif;
+        font-family: monospace, serif;
       }
 
       footer::selection {
+        background-color: rgb(193, 162, 83, 0.8);
+        color: #fff;
+      }
+
+      footer a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      footer a::selection {
         background-color: rgb(193, 162, 83, 0.8);
         color: #fff;
       }
@@ -169,6 +182,8 @@
       </svg>
     </main>
 
-    <footer>XUEBING.PRO | 京ICP备18064894号-2</footer>
+    <footer>
+      XUEBING.PRO | <a href="https://beian.miit.gov.cn/" target="_blank">京ICP备18064894号-3</a>
+    </footer>
   </body>
 </html>
